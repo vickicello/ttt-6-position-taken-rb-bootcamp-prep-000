@@ -1,5 +1,7 @@
-def position_taken?(index)
-  if position = "   "
-    position == empty
-  else position == taken 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def position_taken?(board)
+  if board(index) = " "
+    index == false
+  else index == true 
 end
